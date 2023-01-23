@@ -1,0 +1,18 @@
+
+.mainDashboardContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 960px;
+    max-height: 960px;
+
+    .newSprintContainer {
+        display: flex;
+        width: 90%;
+        padding: 30px;
+        justify-content: center;
+        margin: auto;
+        
+    }
+}

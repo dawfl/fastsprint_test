@@ -1,0 +1,51 @@
+
+
+.sideBarContainer{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 10%;
+    height: 100%;
+    background-color: #D9D9D9;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    .sideBarProfile {
+        display: flex;
+        flex-direction: row;
+        height: 30%;
+        padding: 10%;
+        
+
+            img {
+                background-color: rgb(219, 224, 223);
+                border-radius: 20px;
+                display: block;
+                width: 100px;
+                height: 100px;
+                margin: 10%
+            }
+        
+    }
+
+    .sprintLink {
+        margin-top: 10px;
+        padding: 10px;
+        height: 40px;
+        justify-content: center;
+        text-decoration: none;
+
+        .sprintText {
+            text-align: center;
+            text-decoration: none;
+            
+        }
+    }
+
+    .sprintLink:hover{
+        cursor: pointer;
+        background-color:rgb(251, 255, 254);
+    }
+
+   
+  
+}

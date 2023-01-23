@@ -1,0 +1,127 @@
+
+#mainContainer {
+    
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    background-color: #E6E6E6;
+    filter: blur();
+    overflow: scroll;
+
+
+.sprintContainer{
+    
+    width: 20%;
+    padding-top:80px;
+    border-right:1px solid rgb(216, 213, 213);
+
+    .sprintTitleContainer {
+        background-color: #F2F2F2;
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        margin-bottom: 10px;
+        overflow: hidden;
+        position: sticky;
+        
+        #sprintTitle{
+            overflow: hidden;
+            margin-right: 20px;
+        }
+
+        #sprintCount{
+            display: flex;
+        }
+        
+        .sprintItems {
+            flex:1;
+        }
+
+        .sprintItems:active{
+            box-shadow: 0 5px #F2F2F2;;
+        }
+
+    }
+
+    .sprintTitleContainer:hover  {
+        background-color: #F2F2F2;
+        padding: 10px;
+        width: 150%;
+        margin-bottom: 10px;
+        overflow: hidden;
+        transition: all 2s ease;       
+    }
+}
+
+.backlogContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+    .nextSprintContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+        padding: 80px;
+
+
+        .sprintActive {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            margin-bottom: 10px;
+            .sprintName{
+                width:100%
+            }
+
+            .activeSprintButton{
+                width: 30%;
+                background-color:#fafdfdc0;
+                border-radius: 10px;
+            }
+           
+        };
+    }
+    
+}
+
+
+}
+
+.newTask {
+    width: 0;
+    height: 100%;
+    position: fixed;
+    background-color: #F2F2F2;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    transition: .4s;
+
+    
+
+}
+
+.newTaskActive {
+    width: 60%;
+    height: 100%;
+    position: fixed;
+    background-color: #F2F2F2;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    transition: all 1s ease;
+    display: block;
+
+}

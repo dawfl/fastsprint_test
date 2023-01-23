@@ -1,0 +1,63 @@
+.mainDashboardContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 960px;
+    max-height: 960px;
+
+
+.newTaskContainer {
+    display: flex;
+        width: 100%;
+        padding: 30px;
+        justify-content: center;
+        margin: auto;
+
+
+        form {
+            width: 100%;
+            
+        }
+            
+            .inputTaskSprintNew{
+                width: 500px;
+                animation: 2s ease-out animatonInput;
+            }
+
+            label {
+                margin-top: 50px;
+                opacity:0;
+            }
+            select {
+                margin-top:30px;
+                animation: 1s ease-out animatonInput;
+                
+            }
+            
+            .bottomSprintAdd {
+                margin-top: 50px;
+                animation: 1s ease-out animatonInput;
+                
+                
+            }
+
+           @keyframes animatonInput {
+                0%{
+                    opacity: 0;
+                }
+               
+                100%{
+                    opacity:1
+                }
+            
+           }
+            
+            
+        }
+        
+        
+}
+
+
+

@@ -1,0 +1,45 @@
+
+
+.TaskContainer {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    width: 100%;
+    max-height: 60px;
+    padding: 5px;
+    margin-top:10px;
+    background-color:#fafdfdc0;
+    -webkit-box-shadow: 0px 0px 12px 0px #E6E6E6;;
+    -moz-box-shadow: 0px 0px 12px 0px #E6E6E6;;
+    box-shadow: 0px 0px 12px 0px #E6E6E6;
+    border-radius: 10px;
+    
+    
+
+    .taskSprintName {
+        width: 25%;
+        border-right: solid;
+        border-color: #E6E6E6;
+        margin: auto;
+    }
+
+    .titleTask {
+        width: 70%;
+        margin: auto;
+    }
+    .titleTask > span {
+        margin: 10px;
+        width: 60%;
+        word-break: break-all;
+
+    }
+
+    img {
+        width: 20%;
+        height: 50px;
+        width: 50px;
+
+    }
+    
+    
+}
